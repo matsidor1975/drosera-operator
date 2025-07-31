@@ -1,0 +1,17 @@
+
+ethereum_rpc = "https://ethereum-hoodi-rpc.publicnode.com"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps.mytrap]
+path = "out/NeoMint.sol/NeoMint.json"
+response_contract = "0xfD0c087ED4a7228cc194d224Ea25f05D593bd168"
+response_function = "ZillaFi"
+cooldown_period_blocks = 33
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 10
+private_trap = true
+whitelist = ["0xC988FC9a1195A391382EC8Ded0ac703cf022408b"]
+address = "0x4B8F226bc9c3A9C6b5b6AA9A741173740544F86c"

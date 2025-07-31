@@ -1,0 +1,7 @@
+
+.env
+node_modules/
+logs/
+*.log
+__pycache__/
+out/*/*.dbg.json

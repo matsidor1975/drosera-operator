@@ -1,0 +1,13 @@
+
+version: "3.8"
+
+services:
+  drosera-operator:
+    image: your-docker-image:latest
+    container_name: drosera-operator
+    environment:
+      - OPERATOR_PRIVATE_KEY=${OPERATOR_PRIVATE_KEY}
+    volumes:
+      - ./drosera.toml:/app/drosera.toml
+    ports:
+      - "31313:31313"
